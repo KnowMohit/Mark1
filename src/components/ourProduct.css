@@ -1,0 +1,93 @@
+/* OurProduct.css */
+.our-product-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  margin-top: 35px;
+  margin-left: 10px; /* Adjust this value */
+  margin-right: 10px;
+  margin-bottom: 40px;
+  background-color: #f0f0f0;
+}
+
+.custom-slider {
+  width: 40%;
+  height: 40%;
+}
+
+.custom-slider img {
+  display: flex;
+  margin-top: 15px;
+  width: 100%;
+  height: 300px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+}
+.slick-next:before {
+  content: '→';
+  color: black; /* Change the color to black */
+}
+
+.slick-prev:before,
+.slick-next:before {
+  font-family: 'slick';
+  font-size: 20px;
+  line-height: 1;
+  opacity: .75;
+  color: black;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+.product-details {
+  flex: 0.9;
+}
+.product-image {
+  display: flex;
+  align-items: center;
+  margin-top: 10px; /* Adjust this value */
+  margin-bottom: 0px; /* Adjust this value */
+  margin-left: 100px; /* Adjust this value */
+}
+.product-item iframe {
+  display: flex;
+  margin-top: 15px;
+  width: 100%;
+  height: 300px; /* Set a specific height as needed */
+  margin-bottom: 15px;
+  border-radius: 8px;
+}
+
+
+.product-image img {
+  max-width: 60%;
+  height: 60%;
+  border-radius: 8px; /* Apply border-radius to the image */
+}
+
+.product-details h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.product-details h3 {
+  font-size: 1.5rem;
+  margin-top: 20px;
+}
+
+.product-details p,
+.product-details ul {
+  font-size: 1rem;
+  color: #333;
+}
+
+.product-details ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.product-details li {
+  margin-bottom: 8px;
+}
